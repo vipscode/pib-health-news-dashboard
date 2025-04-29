@@ -1,40 +1,50 @@
-fetch('data/categorized_data.json')
-  .then(response => response.json())
-  .then(data => {
-    const container = document.getElementById('categories');
-    container.innerHTML = '';
+document.addEventListener("DOMContentLoaded", function () {
+  fetch('data/categorized_data.json')
+    .then(response => response.json())
+    .then(data => {
+      const categories = {};
 
-    Object.entries(data).forEach(([category, articles]) => {
-      const section = document.createElement('section');
-      section.className = "bg-white p-4 rounded-xl shadow";
-
-      const title = document.createElement('h2');
-      title.textContent = category;
-      title.className = "text-2xl font-bold text-blue-700 mb-4";
-
-      const list = document.createElement('ul');
-      list.className = "space-y-2";
-
-      articles.forEach(article => {
-        const item = document.createElement('li');
-        item.className = "text-gray-800 hover:text-blue-600 transition";
-
-        const link = document.createElement('a');
-        link.href = article.link;
-        link.target = "_blank";
-        link.className = "underline hover:no-underline";
-        link.textContent = article.title;
-
-        item.appendChild(link);
-        list.appendChild(item);
+      // Group articles by category
+      data.forEach(article => {
+        const category = article.category || "Others";
+        if (!categories[category]) {
+          categories[category] = [];
+        }
+        categories[category].push(article);
       });
 
-      section.appendChild(title);
-      section.appendChild(list);
-      container.appendChild(section);
+      const container = document.getElementById("categories");
+
+      Object.keys(categories).sort().forEach(category => {
+        const categoryBlock = document.createElement("div");
+        categoryBlock.classList.add("category-block");
+
+        const title = document.createElement("div");
+        title.classList.add("category-title");
+        title.textContent = category;
+        categoryBlock.appendChild(title);
+
+        const list = document.createElement("ul");
+        list.classList.add("article-list");
+
+        categories[category].forEach(article => {
+          const item = document.createElement("li");
+          item.classList.add("article-item");
+
+          const link = document.createElement("a");
+          link.href = article.link || "#";
+          link.textContent = article.title;
+          link.target = "_blank";
+
+          item.appendChild(link);
+          list.appendChild(item);
+        });
+
+        categoryBlock.appendChild(list);
+        container.appendChild(categoryBlock);
+      });
+    })
+    .catch(error => {
+      console.error("Error loading categorized_data.json:", error);
     });
-  })
-  .catch(err => {
-    document.getElementById('categories').innerHTML =
-      `<p class="text-red-600">Failed to load articles: ${err.message}</p>`;
-  });
+});
