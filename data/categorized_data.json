@@ -3,7 +3,7 @@
     "title": "Steps taken by the Government to increase surveillance and awareness of Antimicrobial Resistance (AMR)",
     "date": "28 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2116222",
-    "category": "Antimicrobial Resistance"
+    "category": "Antimicrobial-Resistance (AMR)"
   },
   {
     "title": "Steps taken by the Government of India to maintain quality of education in pharmacy sector",
@@ -15,13 +15,13 @@
     "title": "Update on National Quality Assurance Standards (NQAS)",
     "date": "28 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2116213",
-    "category": "Others"
+    "category": "Health Systems and Infrastructure"
   },
   {
     "title": "Update on Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)",
     "date": "28 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2116209",
-    "category": "Others"
+    "category": "Health Systems and Infrastructure"
   },
   {
     "title": "National Consultation on Adolescent Nutrition: Let’s Fix Our Food (LFOF) Consortium convened at Indian Council of Medical Research (ICMR)",
@@ -51,7 +51,7 @@
     "title": "Steps taken on Mental Health",
     "date": "25 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2114756",
-    "category": "Others"
+    "category": "Non-Communicable Diseases"
   },
   {
     "title": "Steps taken to expand healthcare professionals in rural areas",
@@ -66,16 +66,16 @@
     "category": "Medical Technologies"
   },
   {
-    "title": "World Tuberculosis (TB) Day – 2025",
-    "date": "24 Mar 2025",
-    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2114549",
-    "category": "Others"
-  },
-  {
     "title": "Union Health Minister Shri JP Nadda Inaugurates World TB Day 2025 Summit",
     "date": "24 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2114554",
-    "category": "Others"
+    "category": "Infectious Diseases"
+  },
+  {
+    "title": "World Tuberculosis (TB) Day – 2025",
+    "date": "24 Mar 2025",
+    "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2114549",
+    "category": "Infectious Diseases"
   },
   {
     "title": "Saving Mothers, Strengthening Futures",
@@ -99,7 +99,7 @@
     "title": "Measures taken by the government to use AI in the public health system",
     "date": "21 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2113683",
-    "category": "Digital Health"
+    "category": "Public Health"
   },
   {
     "title": "Steps taken by the Government to ensure quality standards of food products",
@@ -111,19 +111,19 @@
     "title": "Steps taken by the Government to expand healthcare infrastructure",
     "date": "21 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2113679",
-    "category": "Others"
+    "category": "Health Systems and Infrastructure"
   },
   {
     "title": "Update on elimination of Trachoma and Malaria",
     "date": "18 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2112480",
-    "category": "Others"
+    "category": "Infectious Diseases"
   },
   {
     "title": "Steps taken under TB-Mukt Bharat Abhiyan",
     "date": "18 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2112478",
-    "category": "Others"
+    "category": "Infectious Diseases"
   },
   {
     "title": "Update on Maternal and Child Health Indicators under NHM",
@@ -135,13 +135,13 @@
     "title": "Union Minister of State for Health and Family Welfare, Smt. Anupriya Patel inaugurates the India Innovation Summit – Pioneering Solutions to End TB",
     "date": "18 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2112158",
-    "category": "Others"
+    "category": "Infectious Diseases"
   },
   {
     "title": "Union Minister of State for Health and Family Welfare, Smt. Anupriya Patel inaugurates QUAD Workshop on Pandemic Preparedness for Indo-Pacific Region",
     "date": "17 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2111705",
-    "category": "Others"
+    "category": "Infectious Diseases"
   },
   {
     "title": "Update on “75/25” Initiative",
@@ -153,19 +153,19 @@
     "title": "Steps taken to prioritize Research on Fungal Infections",
     "date": "11 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2110387",
-    "category": "Others"
+    "category": "Infectious Diseases"
   },
   {
     "title": "Update on National Ambulance Services (NAS) Scheme",
     "date": "11 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2110385",
-    "category": "Others"
+    "category": "Health Systems and Infrastructure"
   },
   {
     "title": "Steps taken to treat cases of Cancer, emanating from Cancer-Causing Rivers",
     "date": "11 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2110384",
-    "category": "Others"
+    "category": "Non-Communicable Diseases"
   },
   {
     "title": "Union Minister of Health and Family Welfare, Shri JP Nadda virtually presides over the 48th Annual Day Celebration of NIHFW, in the presence of Union Minister of State for Health and Family Welfare, Smt. Anupriya Patel",
@@ -177,13 +177,13 @@
     "title": "Union Health Minister Shri JP Nadda inaugurates third International Symposium on Health Technology Assessment 2025",
     "date": "08 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2109392",
-    "category": "Digital Health"
+    "category": "Others"
   },
   {
     "title": "Union Health Minister Shri Jagat Prakash Nadda Reviews AIIMS Bilaspur’s Milestones and Development Progress",
     "date": "07 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2109307",
-    "category": "Others"
+    "category": "Health Systems and Infrastructure"
   },
   {
     "title": "Prime Minister Shri Narendra Modi addresses the Post-Budget Webinar on the theme ‘Investing in People’",
@@ -201,6 +201,6 @@
     "title": "Union Health Minister Shri JP Nadda visits Rural Health Training Center, Najafgarh and Ayushman Arogya Mandir, Palam; interacts with Patients and Medical Staff",
     "date": "03 Mar 2025",
     "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=2107742",
-    "category": "Others"
+    "category": "Health Systems and Infrastructure"
   }
 ]
